@@ -1,0 +1,23 @@
+.smile1 {
+  animation: smile 1s infinite;
+}
+@keyframes smile {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.smile2 {
+  animation: smile2 1s infinite;
+}
+@keyframes smile2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
